@@ -33,4 +33,12 @@
     git remote -v （查看是否关联成功）
     ```
 
-    
+    *<font color=#fff566 size=3>Note:&nbsp;&nbsp;</font>* 最好添加 `.gitignore` 文
+
+9. `git fetch` 更新远程的代码下来
+
+10. `git add .` 保存代码
+
+11. `git commit -m 'xxx'` 添加保存代码的描述，方便以后回退及预览
+
+12. `git push` ，若是第一次提交的话

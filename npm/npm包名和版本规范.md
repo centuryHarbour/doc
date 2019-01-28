@@ -14,7 +14,7 @@
   * react_native
   * react_native
   
-  *Note：* 8月5日后，`npm` 官方对于包的命名做了一些修改，主要是为了更好的防御「误植」攻击（8月5日长达两周的恶意攻击活动）
+  *<font color=#fff566 size=3>Note:&nbsp;&nbsp;</font>* 8月5日后，`npm` 官方对于包的命名做了一些修改，主要是为了更好的防御「误植」攻击（8月5日长达两周的恶意攻击活动）
 
 * **使用作用域**
 
@@ -50,7 +50,7 @@
 * 次版本号：当你做了向下兼容的功能性新增
 * 修订号：当你做了向下兼容的问题修正
 
-*Note：* 通过 `npm version <update_type>` 自动改版版本， `update_type` 为 `patch` ， `minor` ， or `major` 其中之一，分别表示补丁，小改，大改。 
+*<font color=#fff566 size=3>Note:&nbsp;&nbsp;</font>* 通过 `npm version <update_type>` 自动改版版本， `update_type` 为 `patch` ， `minor` ， or `major` 其中之一，分别表示补丁，小改，大改。 
 
 **参考网站：**
 
