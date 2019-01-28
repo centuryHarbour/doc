@@ -41,4 +41,8 @@
 
 11. `git commit -m 'xxx'` 添加保存代码的描述，方便以后回退及预览
 
-12. `git push` ，若是第一次提交的话
+12. `git push` ，若是第一次提交的话，则会提示你使用 `git push --set-upstream origin master` 命令
+
+    *<font color=#fff566 size=3>Note:&nbsp;&nbsp;</font>* 若是出现以下第一张示例图片情况，请使用 `git pull origin master --allow-unrelated-histories` （合并远程仓库代码），出现合并界面一般按 `shift + ;`，然后输入 `wq` 按回车键，成功后则重复10~12的步骤即可。（有可能还会出现要解冲突的情况，具体如何解冲突请自行百度）
+
+    ![示例一](./git-push.jpg)
