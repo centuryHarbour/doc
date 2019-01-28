@@ -1,0 +1,53 @@
+@url=http://rest-admin.genyii.com/admin/api/
+@json=Content-Type: application/json;charset=UTF-8
+@ajson=Accept: application/json
+###
+
+GET {{url}}site
+###
+
+POST {{url}}login
+{{json}}
+
+{
+  "username": "admin",
+  "password": "admin"
+}
+###
+
+GET {{url}}home HTTP/1.1
+###
+
+GET {{url}}categories
+###
+
+GET {{url}}products
+###
+
+GET {{url}}users
+###
+
+GET {{url}}users/grid
+###
+
+POST {{url}}users
+{{json}}
+
+{
+  "username": "user1",
+  "password": "12345"
+}
+###
+
+PUT {{url}}users/16ffc549800
+{{json}}
+
+{
+  "username": "admin1",
+  "password": "password1",
+  "_id": 1
+}
+###
+
+DELETE {{url}}users/16ffc549800
+{{ajson}}

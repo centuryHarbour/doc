@@ -1,0 +1,15 @@
+#请求地址
+@baseUrl = https://mwx.ixiaowo.com/apih5/wechatapp
+# 参数一
+@param1 = url=https:%2F%2Fmwx.ixiaowo.com%2Fwechath5%2Fjinshang%2Findex.html
+
+# 示例
+POST {{baseUrl}}/wechatapi/JsapiSignature?{{param1}} HTTP/1.1
+Content-Type: application/json
+systemCode: 8
+
+curl -X POST HTTP/1.1
+  -L {{baseUrl}}/wechatapi/JsapiSignature?{{param1}}
+  -H 'Content-Type: application/json'
+  -H 'systemCode: 8'
+
